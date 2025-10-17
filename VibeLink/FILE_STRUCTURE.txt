@@ -1,0 +1,58 @@
+VibeLink/
+│
+├── Package.swift
+├── README.md
+├── QUICKSTART.md
+├── PROJECT_STRUCTURE.md
+├── BUILD_SUMMARY.md
+├── FILE_STRUCTURE.txt
+│
+└── VibeLink/
+    │
+    ├── VibeLinkApp.swift
+    ├── Info.plist
+    │
+    ├── Models/
+    │   ├── User.swift
+    │   ├── Hub.swift
+    │   ├── Post.swift
+    │   ├── VibeKin.swift
+    │   ├── Match.swift
+    │   └── Message.swift
+    │
+    ├── Services/
+    │   ├── AuthService.swift
+    │   ├── FirestoreService.swift
+    │   └── WeeklyTimerService.swift
+    │
+    ├── Utils/
+    │   ├── Constants.swift
+    │   ├── Extensions.swift
+    │   └── SampleData.swift
+    │
+    └── Views/
+        ├── MainTabView.swift
+        │
+        ├── Onboarding/
+        │   ├── OnboardingView.swift
+        │   └── HubSelectionView.swift
+        │
+        ├── Hub/
+        │   ├── HubHomeView.swift
+        │   ├── ButtonMomentSheet.swift
+        │   └── WeeklyDecisionView.swift
+        │
+        ├── Chat/
+        │   ├── ChatListView.swift
+        │   └── ChatDetailView.swift
+        │
+        ├── Vault/
+        │   └── VaultView.swift
+        │
+        └── Components/
+            ├── PostCard.swift
+            └── PostDetailView.swift
+
+TOTAL FILES: 30
+TOTAL SWIFT FILES: 24
+TOTAL LINES OF CODE: 3,563
